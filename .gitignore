@@ -580,4 +580,6 @@ $RECYCLE.BIN/
 *.lnk
 
 .idea/
-testfiles/output.tiff
+testfiles/
+!testfiles/2023-03-18362_RGB_233769.IIQ
+!testfiles/2023-03-18362_NIR_298107.IIQ

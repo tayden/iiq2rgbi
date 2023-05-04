@@ -37,7 +37,7 @@ message(STATUS "Downloading ImageSDK...")
 FetchContent_Populate(ImageSDK)
 find_package(ImageSDK CONFIG REQUIRED HINTS ${CMAKE_CURRENT_BINARY_DIR}/ImageSDK)
 
-## Add sample executable
+## Add executable
 
 add_executable(iiq2rgbi main.cpp)
 
